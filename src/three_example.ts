@@ -4,9 +4,9 @@ const scene = new THREE.Scene();
 const sizes = { width: window.innerWidth, height: window.innerHeight }
 
 const points = [
-  new THREE.Vector2(-0.8, -.8),
+  new THREE.Vector2(-.8, -.8),
   new THREE.Vector2(0, -.8),
-  new THREE.Vector2(-0.8, .8),
+  new THREE.Vector2(-.8, .8),
 ]
 const shape = new THREE.Shape(points);
 
